@@ -1,8 +1,10 @@
-
 *{
     padding: 0;
     margin: 0;
     user-select: none;
+}
+.kebabIcon{
+    display: none;
 }
 ::selection{
     background-color: #24272a;
@@ -12,15 +14,15 @@
 .poetsen-one-thin {
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-  }
-  
-/* when the switch is clicked on the background color should change to this 
-body{
-    background-color: #161616;
-    color:white
-} */
-.kebabIcon{
-    display: none;
+}
+
+main p{
+    color: olive;
+    font-size: 21px;
+    line-height: 30px;
+}
+main{
+    padding: 2% 15%;
 }
 body{
     background-color: #fdfafa;
@@ -40,10 +42,9 @@ nav{
     padding: 7px 0px;
 }
 .divider{
-    height: 70px;
+    height: 90px;
     background-color: #fdfafa;
 }
-
 nav ul{
     display: flex;
     gap: 10%;
@@ -93,46 +94,6 @@ margin-left: 8%;
     color: #161616;
 }
 /*main*/
-.missBright{
-    width: 150px;
-    height: 150px;
-    position: relative;
-    left: 44%;
-    border-radius: 50%;
-    border: 1px solid rgb(163, 162, 162);
-    z-index: 9;
-    overflow: hidden;
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-h5{
-    font-size: 23px;
-    margin: 10px;
-    color: #161616;
-}
-.name{
-    font-size: 60px;
-    margin: 13px 0px;
-    color: olive;
-}
-button{
-    width:17%;
-    padding: 20px 2px 20px 2px;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: larger;
-    color: olive;
-    margin: 30px 0px 50px 0px;
-    border: 1px solid olive;
-}
-button:hover{
-    background-color: olive;
-    border: transparent;
-    color: oldlace;
-}
-p{
-    font-size: large;
-}
 /* footer */
 footer{
     background-color: whitesmoke;
