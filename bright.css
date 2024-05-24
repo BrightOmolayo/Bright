@@ -121,9 +121,12 @@ button{
     border-radius: 30px;
     font-weight: 600;
     font-size: larger;
-    color: olive;
     margin: 30px 0px 50px 0px;
     border: 1px solid olive;
+}
+button a{
+    color: olive;
+    text-decoration: none;
 }
 button:hover{
     background-color: olive;
@@ -314,6 +317,10 @@ section{
         color: olive;
         margin: 30px 0px 50px 0px;
         border: 1px solid olive;
+    }
+    button a{
+        color: olive;
+        text-decoration: none;
     }
     button:hover{
         background-color: olive;

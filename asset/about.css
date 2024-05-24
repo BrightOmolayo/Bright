@@ -15,14 +15,17 @@
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 }
-
+main h1{
+    text-align: center;
+    margin: 20px 0px;
+}
 main p{
     color: olive;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 30px;
 }
 main{
-    padding: 2% 15%;
+    padding: 2% 17%;
 }
 body{
     background-color: #fdfafa;
