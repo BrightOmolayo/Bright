@@ -10,7 +10,6 @@ body{
 .angle{
     background-image: radial-gradient(#ccb95e,black);
 }
-.mail-icon{
-    fill: white;
-    background-color: aliceblue;
+main{
+    display: flex;
 }
