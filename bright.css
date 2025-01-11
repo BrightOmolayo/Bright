@@ -4,12 +4,29 @@ body{
     background-color: #1d1d1f;
     color: aliceblue;
 }
-.content-container{
-    display: flex;
-}
 .angle{
     background-image: radial-gradient(#ccb95e,black);
 }
 main{
     display: flex;
+}
+.main-text{
+    display: flex;
+    gap: 2%;
+}
+.line{
+    width:1px;
+    background-color: #ccb95e;
+    height: 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top-angle{
+    border: 2px solid #ccb95e;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom:0px;
+    border-right:0px;
 }
