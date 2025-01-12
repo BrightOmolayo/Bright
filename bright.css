@@ -4,20 +4,27 @@ body{
     background-color: #1d1d1f;
     color: aliceblue;
 }
-.angle{
-    background-image: radial-gradient(#ccb95e,black);
-}
 main{
     display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 0% 7%;
 }
 .main-text{
     display: flex;
-    gap: 2%;
+    gap: 5%;
+    margin-left: 4%;
+    line-height: 40px;
+}
+.main-section-1{
+    width: 50%;
 }
 .line{
     width:1px;
     background-color: #ccb95e;
     height: 120px;
+    position: relative;
+    top: 18px;
 }
 nav{
     display: flex;
@@ -25,8 +32,57 @@ nav{
 }
 .top-angle{
     border: 2px solid #ccb95e;
-    padding: 10px;
-    border-top-left-radius: 25px;
+    padding: 40px;
+    border-top-left-radius: 3px;
     border-bottom:0px;
     border-right:0px;
 }
+.projects-angle{
+    border: 2px solid #ccb95e;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom:0px;
+    border-right:0px;
+}
+.bottom-angle{
+    border: 2px solid #ccb95e;
+    padding: 40px;
+    border-bottom-right-radius: 3px;
+    border-top:0px;
+    border-left:0px;
+}
+.content-container{
+    margin: 4%;
+}
+.project-links{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.mini-angle{
+    margin-top: 14px;
+}
+.projects-links-ul  li{
+    margin-top: 7px;
+    padding-right: 5px;
+}
+.links{
+    width: 13%;
+    margin-right: 2%;
+}
+.links-ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.projects{
+    margin-right: 15%;
+}
+/* .logo{
+    width: 90%;
+} */
