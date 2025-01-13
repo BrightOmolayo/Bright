@@ -86,3 +86,500 @@ footer{
 /* .logo{
     width: 90%;
 } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 2%;
+        margin: 0;
+        background-color: #1d1d1f;
+        color: aliceblue;
+    }
+    main{
+        display: block;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 80px 7% 2% 15%;
+    }
+    .main-text{
+        display: flex;
+        gap: 7%;
+        margin-left: 0%;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    .main-section-1{
+        width: 99%;
+    }
+    .main-section-1 h1{
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        right:3px;
+    }
+    .line{
+        width:1px;
+        background-color: #ccb95e;
+        height: 150px;
+        position: relative;
+        top: 18px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-angle{
+        border: 2px solid #ccb95e;
+        padding: 30px;
+        border-top-left-radius: 3px;
+        border-bottom:0px;
+        border-right:0px;
+        width: 16%;
+    }
+    .projects-angle{
+        border: 2px solid #ccb95e;
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-bottom:0px;
+        border-right:0px;
+        width: 40%;
+    }
+    .bottom-angle{
+        border: 2px solid #ccb95e;
+        padding: 20px;
+        border-bottom-right-radius: 3px;
+        border-top:0px;
+        border-left:0px;
+        width: 60%;
+    }
+    .content-container{
+        margin: 9%;
+    }
+    .project-links{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .mini-angle{
+        margin-top: 14px;
+    }
+    .projects-links-ul  li{
+        margin-top: 7px;
+        padding-right: 0px;
+    }
+    .projects-links-ul{
+        padding-left:0px;
+    }
+    .links{
+        width: 13%;
+        margin-right: 2%;
+        display: none;
+    }
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12%;
+    }
+    .projects{
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+    .section-projects{
+        display: none;
+    }
+    .dropdown{
+        width: 6%;
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+        position: relative;
+        top: 37px;
+        margin-right: 20px;
+    }
+    .hambuger-line{
+        background-color: #ccb95e;
+        height: 0.6px;
+    }
+    /* .logo{
+        width: 90%;
+    } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #1d1d1f;
+        color: aliceblue;
+    }
+    main{
+        display: block;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 0% 7%;
+    }
+    .main-text{
+        display: flex;
+        gap: 5%;
+        margin-left: 4%;
+        line-height: 40px;
+    }
+    .main-section-1{
+        width: 50%;
+    }
+    .line{
+        width:1px;
+        background-color: #ccb95e;
+        height: 120px;
+        position: relative;
+        top: 18px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-top-left-radius: 3px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .projects-angle{
+        border: 2px solid #ccb95e;
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .bottom-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-bottom-right-radius: 3px;
+        border-top:0px;
+        border-left:0px;
+    }
+    .content-container{
+        margin: 4%;
+    }
+    .project-links{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .mini-angle{
+        margin-top: 14px;
+    }
+    .projects-links-ul  li{
+        margin-top: 7px;
+        padding-right: 5px;
+    }
+    .links{
+        width: 13%;
+        margin-right: 2%;
+    }
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .projects{
+        margin-right: 15%;
+    }
+    /* .logo{
+        width: 90%;
+    } */
+    .section-projects{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #1d1d1f;
+        color: aliceblue;
+    }
+    main{
+        display: block;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 0% 7%;
+    }
+    .main-text{
+        display: flex;
+        gap: 5%;
+        margin-left: 4%;
+        line-height: 40px;
+    }
+    .main-section-1{
+        width: 50%;
+    }
+    .line{
+        width:1px;
+        background-color: #ccb95e;
+        height: 120px;
+        position: relative;
+        top: 18px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-top-left-radius: 3px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .projects-angle{
+        border: 2px solid #ccb95e;
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .bottom-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-bottom-right-radius: 3px;
+        border-top:0px;
+        border-left:0px;
+    }
+    .content-container{
+        margin: 4%;
+    }
+    .project-links{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .mini-angle{
+        margin-top: 14px;
+    }
+    .projects-links-ul  li{
+        margin-top: 7px;
+        padding-right: 5px;
+    }
+    .links{
+        width: 13%;
+        margin-right: 2%;
+    }
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .projects{
+        margin-right: 15%;
+    }
+    /* .logo{
+        width: 90%;
+    } */
+    .section-projects{
+        display: block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #1d1d1f;
+        color: aliceblue;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 0% 7%;
+    }
+    .main-text{
+        display: flex;
+        gap: 5%;
+        margin-left: 4%;
+        line-height: 40px;
+    }
+    .main-section-1{
+        width: 50%;
+    }
+    .line{
+        width:1px;
+        background-color: #ccb95e;
+        height: 120px;
+        position: relative;
+        top: 18px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-top-left-radius: 3px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .projects-angle{
+        border: 2px solid #ccb95e;
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .bottom-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-bottom-right-radius: 3px;
+        border-top:0px;
+        border-left:0px;
+    }
+    .content-container{
+        margin: 4%;
+    }
+    .project-links{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .mini-angle{
+        margin-top: 14px;
+    }
+    .projects-links-ul  li{
+        margin-top: 7px;
+        padding-right: 5px;
+    }
+    .links{
+        width: 13%;
+        margin-right: 2%;
+    }
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .projects{
+        margin-right: 15%;
+    }
+    /* .logo{
+        width: 90%;
+    } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #1d1d1f;
+        color: aliceblue;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 0% 7%;
+    }
+    .main-text{
+        display: flex;
+        gap: 5%;
+        margin-left: 4%;
+        line-height: 40px;
+    }
+    .main-section-1{
+        width: 50%;
+    }
+    .line{
+        width:1px;
+        background-color: #ccb95e;
+        height: 120px;
+        position: relative;
+        top: 18px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-top-left-radius: 3px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .projects-angle{
+        border: 2px solid #ccb95e;
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-bottom:0px;
+        border-right:0px;
+    }
+    .bottom-angle{
+        border: 2px solid #ccb95e;
+        padding: 40px;
+        border-bottom-right-radius: 3px;
+        border-top:0px;
+        border-left:0px;
+    }
+    .content-container{
+        margin: 4%;
+    }
+    .project-links{
+        color: white;
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    .mini-angle{
+        margin-top: 14px;
+    }
+    .projects-links-ul  li{
+        margin-top: 7px;
+        padding-right: 5px;
+    }
+    .links{
+        width: 13%;
+        margin-right: 2%;
+    }
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .projects{
+        margin-right: 15%;
+    }
+    /* .logo{
+        width: 90%;
+    } */
+}
