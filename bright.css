@@ -87,9 +87,11 @@ footer{
 .projects{
     margin-right: 15%;
 }
-/* .logo{
-    width: 90%;
-} */
+
+#logo a{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 319px) {
@@ -220,9 +222,11 @@ footer{
     /* .links-for-mobile{
         display: ;
     } */
-    /* .logo{
-        width: 90%;
-    } */
+   
+    #logo a{
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width:429px) {
@@ -377,9 +381,11 @@ footer{
         background-color: #1d1d1f;
     }
     
-    /* .logo{
-        width: 90%;
-    } */
+
+    #logo a{
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
 @media only screen and (min-width: 430px) and (max-width:769px) {
     body{
@@ -521,9 +527,10 @@ footer{
         display: block;
         background-color: #1d1d1f;
     }
-    /* .logo{
-        width: 90%;
-    } */
+    #logo a{
+        text-decoration: none;
+        color: aliceblue;
+    }
     .links-for-mobile-ul{
         display: flex;
         justify-content: space-between;
@@ -792,7 +799,9 @@ footer{
     .hidden{
         display: none;
     }
-    /* .logo{
-        width: 90%;
-    } */
+
+    #logo a{
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
